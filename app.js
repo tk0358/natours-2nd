@@ -6,6 +6,7 @@ const userRouter = require('./routes/userRoutes');
 
 const app = express();
 app.use(express.json());
+app.use(express.static(`${__dirname}/public`));
 
 // 1) MIDDLEWARES
 app.use(morgan('dev'));
