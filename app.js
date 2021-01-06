@@ -104,6 +104,7 @@ csp.extend(app, {
         'https://*.cloudflare.com/',
         'https://bundle.js:*',
         'ws://localhost:*/',
+        'www.msn.com/*',
       ],
     },
   },
