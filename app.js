@@ -99,7 +99,7 @@ csp.extend(app, {
         'data:',
         'blob:',
         'wss://tk0358-natours2.herokuapp.com/',
-        'https://tk0358-natours2.herokuapp.com/'
+        'https://tk0358-natours2.herokuapp.com/',
         'https://*.stripe.com',
         'https://*.mapbox.com',
         'https://*.cloudflare.com/',
